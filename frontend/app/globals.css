@@ -1,0 +1,9 @@
+:root{
+    --bkg-color: #00060F;
+    --title-color: #FFFFFF;
+}
+
+body, html{
+    background-color: var(--bkg-color);
+    color: var(--title-color)
+}
