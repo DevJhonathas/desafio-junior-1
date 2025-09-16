@@ -1,9 +1,20 @@
+@import "tailwindcss";
+
 :root{
     --bkg-color: #00060F;
     --title-color: #FFFFFF;
+
+    --bkg-primary-color-balls: rgba(0, 102, 255, .2);
+    --bkg-secondery-color-balls: rgba(0, 32, 79, 1);
 }
 
 body, html{
     background-color: var(--bkg-color);
-    color: var(--title-color)
+    color: var(--title-color);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    touch-action: pan-x pan-y; 
+    overscroll-behavior: none; 
 }
