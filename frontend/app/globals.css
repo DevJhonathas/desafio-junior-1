@@ -6,6 +6,8 @@
 
     --bkg-primary-color-balls: rgba(0, 102, 255, .2);
     --bkg-secondery-color-balls: rgba(0, 32, 79, 1);
+
+    --grey-color-search: #404A5C;
 }
 
 body, html{
